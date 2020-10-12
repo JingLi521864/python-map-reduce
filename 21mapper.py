@@ -13,5 +13,5 @@ for line in sys.stdin:
     date, time,store, department, cost, paymentType = datalist
 
     # print intermediate key-value pairs to standard output
-    print(date + "\t" + cost + "\n")
+    print(store + "\t" + cost + "\n")
 
